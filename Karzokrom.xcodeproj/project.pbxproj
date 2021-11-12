@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1835F01F4FD6C28794689EBE /* Pods_Karzokrom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AAED20A0FA6E2DBF7E45C8D /* Pods_Karzokrom.framework */; };
+		4C2A042E2D10DD1E61B19980 /* Pods_KarzokromTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF178551E27D36CAF32DF05B /* Pods_KarzokromTests.framework */; };
+		500A97A7272FB280009CCED9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 500A97A6272FB280009CCED9 /* GoogleService-Info.plist */; };
+		500A97A9272FC430009CCED9 /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A97A8272FC430009CCED9 /* Homepage.swift */; };
+		50291730272FA44700EAF55A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5029172F272FA44700EAF55A /* LoginViewController.swift */; };
+		50291734272FAAE100EAF55A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50291733272FAAE100EAF55A /* SignupViewController.swift */; };
+		5034B2DC2737DEAD00B91CC4 /* karzosuchi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5034B2DB2737DEAD00B91CC4 /* karzosuchi.swift */; };
+		5048D7D9272FED0F000CB324 /* MyKarzokrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5048D7D8272FED0F000CB324 /* MyKarzokrom.swift */; };
+		5048D7DB272FF021000CB324 /* AddKarzokrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5048D7DA272FF021000CB324 /* AddKarzokrom.swift */; };
+		5048D7DD272FF1FF000CB324 /* developers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5048D7DC272FF1FF000CB324 /* developers.swift */; };
+		5056F1262739265A00DF0BDF /* karzoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5056F1252739265A00DF0BDF /* karzoTableViewCell.swift */; };
+		509694F8272E5A43007B05A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509694F7272E5A43007B05A2 /* AppDelegate.swift */; };
+		509694FA272E5A43007B05A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509694F9272E5A43007B05A2 /* SceneDelegate.swift */; };
+		509694FF272E5A43007B05A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 509694FD272E5A43007B05A2 /* Main.storyboard */; };
+		50969501272E5A5B007B05A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50969500272E5A5B007B05A2 /* Assets.xcassets */; };
+		50969504272E5A5B007B05A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50969502272E5A5B007B05A2 /* LaunchScreen.storyboard */; };
+		5096950F272E5A5C007B05A2 /* KarzokromTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5096950E272E5A5C007B05A2 /* KarzokromTests.swift */; };
+		5096951A272E5A5C007B05A2 /* KarzokromUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50969519272E5A5C007B05A2 /* KarzokromUITests.swift */; };
+		50FABD582730ECE00095D381 /* কার্যক্রম.png in Resources */ = {isa = PBXBuildFile; fileRef = 50FABD572730ECE00095D381 /* কার্যক্রম.png */; };
+		959597BAA3B843C4B0E49454 /* Pods_Karzokrom_KarzokromUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBFD8A421DFE6C9B357485C /* Pods_Karzokrom_KarzokromUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5096950B272E5A5C007B05A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 509694EC272E5A43007B05A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 509694F3272E5A43007B05A2;
+			remoteInfo = Karzokrom;
+		};
+		50969516272E5A5C007B05A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 509694EC272E5A43007B05A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 509694F3272E5A43007B05A2;
+			remoteInfo = Karzokrom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32C68FCCA43DB2A0B9A8AE00 /* Pods-Karzokrom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karzokrom.release.xcconfig"; path = "Target Support Files/Pods-Karzokrom/Pods-Karzokrom.release.xcconfig"; sourceTree = "<group>"; };
+		4FA8F9ABC60D40B8D46C3DC3 /* Pods-Karzokrom-KarzokromUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karzokrom-KarzokromUITests.release.xcconfig"; path = "Target Support Files/Pods-Karzokrom-KarzokromUITests/Pods-Karzokrom-KarzokromUITests.release.xcconfig"; sourceTree = "<group>"; };
+		500A97A6272FB280009CCED9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		500A97A8272FC430009CCED9 /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		5029172F272FA44700EAF55A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		50291733272FAAE100EAF55A /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		5034B2DB2737DEAD00B91CC4 /* karzosuchi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = karzosuchi.swift; sourceTree = "<group>"; };
+		5048D7D8272FED0F000CB324 /* MyKarzokrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKarzokrom.swift; sourceTree = "<group>"; };
+		5048D7DA272FF021000CB324 /* AddKarzokrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddKarzokrom.swift; sourceTree = "<group>"; };
+		5048D7DC272FF1FF000CB324 /* developers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = developers.swift; sourceTree = "<group>"; };
+		5056F1252739265A00DF0BDF /* karzoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = karzoTableViewCell.swift; sourceTree = "<group>"; };
+		509694F4272E5A43007B05A2 /* Karzokrom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karzokrom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		509694F7272E5A43007B05A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		509694F9272E5A43007B05A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		509694FE272E5A43007B05A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50969500272E5A5B007B05A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50969503272E5A5B007B05A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50969505272E5A5B007B05A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5096950A272E5A5C007B05A2 /* KarzokromTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarzokromTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5096950E272E5A5C007B05A2 /* KarzokromTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarzokromTests.swift; sourceTree = "<group>"; };
+		50969510272E5A5C007B05A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50969515272E5A5C007B05A2 /* KarzokromUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarzokromUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50969519272E5A5C007B05A2 /* KarzokromUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarzokromUITests.swift; sourceTree = "<group>"; };
+		5096951B272E5A5C007B05A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FABD572730ECE00095D381 /* কার্যক্রম.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "কার্যক্রম.png"; sourceTree = SOURCE_ROOT; };
+		5B15DFFFE010423DE48AB299 /* Pods-Karzokrom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karzokrom.debug.xcconfig"; path = "Target Support Files/Pods-Karzokrom/Pods-Karzokrom.debug.xcconfig"; sourceTree = "<group>"; };
+		630EAC87C15B4CBE053CEF00 /* Pods-KarzokromTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarzokromTests.debug.xcconfig"; path = "Target Support Files/Pods-KarzokromTests/Pods-KarzokromTests.debug.xcconfig"; sourceTree = "<group>"; };
+		88D0B0470BFFF557709446EC /* Pods-Karzokrom-KarzokromUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karzokrom-KarzokromUITests.debug.xcconfig"; path = "Target Support Files/Pods-Karzokrom-KarzokromUITests/Pods-Karzokrom-KarzokromUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AAED20A0FA6E2DBF7E45C8D /* Pods_Karzokrom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Karzokrom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF178551E27D36CAF32DF05B /* Pods_KarzokromTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KarzokromTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBFD8A421DFE6C9B357485C /* Pods_Karzokrom_KarzokromUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Karzokrom_KarzokromUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71742FA0616CA5769578A5F /* Pods-KarzokromTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarzokromTests.release.xcconfig"; path = "Target Support Files/Pods-KarzokromTests/Pods-KarzokromTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		509694F1272E5A43007B05A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1835F01F4FD6C28794689EBE /* Pods_Karzokrom.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50969507272E5A5C007B05A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2A042E2D10DD1E61B19980 /* Pods_KarzokromTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50969512272E5A5C007B05A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959597BAA3B843C4B0E49454 /* Pods_Karzokrom_KarzokromUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06BA45A0E522F8A71224BCF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B15DFFFE010423DE48AB299 /* Pods-Karzokrom.debug.xcconfig */,
+				32C68FCCA43DB2A0B9A8AE00 /* Pods-Karzokrom.release.xcconfig */,
+				88D0B0470BFFF557709446EC /* Pods-Karzokrom-KarzokromUITests.debug.xcconfig */,
+				4FA8F9ABC60D40B8D46C3DC3 /* Pods-Karzokrom-KarzokromUITests.release.xcconfig */,
+				630EAC87C15B4CBE053CEF00 /* Pods-KarzokromTests.debug.xcconfig */,
+				E71742FA0616CA5769578A5F /* Pods-KarzokromTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		07A120EEEDBB7F0F4EEC55D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AAED20A0FA6E2DBF7E45C8D /* Pods_Karzokrom.framework */,
+				DFBFD8A421DFE6C9B357485C /* Pods_Karzokrom_KarzokromUITests.framework */,
+				DF178551E27D36CAF32DF05B /* Pods_KarzokromTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		509694EB272E5A43007B05A2 = {
+			isa = PBXGroup;
+			children = (
+				509694F6272E5A43007B05A2 /* Karzokrom */,
+				5096950D272E5A5C007B05A2 /* KarzokromTests */,
+				50969518272E5A5C007B05A2 /* KarzokromUITests */,
+				509694F5272E5A43007B05A2 /* Products */,
+				06BA45A0E522F8A71224BCF1 /* Pods */,
+				07A120EEEDBB7F0F4EEC55D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		509694F5272E5A43007B05A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				509694F4272E5A43007B05A2 /* Karzokrom.app */,
+				5096950A272E5A5C007B05A2 /* KarzokromTests.xctest */,
+				50969515272E5A5C007B05A2 /* KarzokromUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		509694F6272E5A43007B05A2 /* Karzokrom */ = {
+			isa = PBXGroup;
+			children = (
+				500A97A6272FB280009CCED9 /* GoogleService-Info.plist */,
+				509694F7272E5A43007B05A2 /* AppDelegate.swift */,
+				509694F9272E5A43007B05A2 /* SceneDelegate.swift */,
+				509694FD272E5A43007B05A2 /* Main.storyboard */,
+				50969500272E5A5B007B05A2 /* Assets.xcassets */,
+				50969502272E5A5B007B05A2 /* LaunchScreen.storyboard */,
+				50969505272E5A5B007B05A2 /* Info.plist */,
+				5029172F272FA44700EAF55A /* LoginViewController.swift */,
+				50291733272FAAE100EAF55A /* SignupViewController.swift */,
+				500A97A8272FC430009CCED9 /* Homepage.swift */,
+				5048D7D8272FED0F000CB324 /* MyKarzokrom.swift */,
+				5048D7DA272FF021000CB324 /* AddKarzokrom.swift */,
+				5048D7DC272FF1FF000CB324 /* developers.swift */,
+				50FABD572730ECE00095D381 /* কার্যক্রম.png */,
+				5034B2DB2737DEAD00B91CC4 /* karzosuchi.swift */,
+				5056F1252739265A00DF0BDF /* karzoTableViewCell.swift */,
+			);
+			path = Karzokrom;
+			sourceTree = "<group>";
+		};
+		5096950D272E5A5C007B05A2 /* KarzokromTests */ = {
+			isa = PBXGroup;
+			children = (
+				5096950E272E5A5C007B05A2 /* KarzokromTests.swift */,
+				50969510272E5A5C007B05A2 /* Info.plist */,
+			);
+			path = KarzokromTests;
+			sourceTree = "<group>";
+		};
+		50969518272E5A5C007B05A2 /* KarzokromUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50969519272E5A5C007B05A2 /* KarzokromUITests.swift */,
+				5096951B272E5A5C007B05A2 /* Info.plist */,
+			);
+			path = KarzokromUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		509694F3272E5A43007B05A2 /* Karzokrom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5096951E272E5A5C007B05A2 /* Build configuration list for PBXNativeTarget "Karzokrom" */;
+			buildPhases = (
+				76C7FDA23133EE8D46941BA9 /* [CP] Check Pods Manifest.lock */,
+				509694F0272E5A43007B05A2 /* Sources */,
+				509694F1272E5A43007B05A2 /* Frameworks */,
+				509694F2272E5A43007B05A2 /* Resources */,
+				A799E8E609208B34C6D7982D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Karzokrom;
+			productName = Karzokrom;
+			productReference = 509694F4272E5A43007B05A2 /* Karzokrom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50969509272E5A5C007B05A2 /* KarzokromTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50969521272E5A5C007B05A2 /* Build configuration list for PBXNativeTarget "KarzokromTests" */;
+			buildPhases = (
+				A98E496693035677212FD1FD /* [CP] Check Pods Manifest.lock */,
+				50969506272E5A5C007B05A2 /* Sources */,
+				50969507272E5A5C007B05A2 /* Frameworks */,
+				50969508272E5A5C007B05A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5096950C272E5A5C007B05A2 /* PBXTargetDependency */,
+			);
+			name = KarzokromTests;
+			productName = KarzokromTests;
+			productReference = 5096950A272E5A5C007B05A2 /* KarzokromTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50969514272E5A5C007B05A2 /* KarzokromUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50969524272E5A5C007B05A2 /* Build configuration list for PBXNativeTarget "KarzokromUITests" */;
+			buildPhases = (
+				D4DF97728F91FC6715219DA8 /* [CP] Check Pods Manifest.lock */,
+				50969511272E5A5C007B05A2 /* Sources */,
+				50969512272E5A5C007B05A2 /* Frameworks */,
+				50969513272E5A5C007B05A2 /* Resources */,
+				5D6171DDACFA5BD0EA55C6FE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50969517272E5A5C007B05A2 /* PBXTargetDependency */,
+			);
+			name = KarzokromUITests;
+			productName = KarzokromUITests;
+			productReference = 50969515272E5A5C007B05A2 /* KarzokromUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		509694EC272E5A43007B05A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = CSE;
+				TargetAttributes = {
+					509694F3272E5A43007B05A2 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					50969509272E5A5C007B05A2 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 509694F3272E5A43007B05A2;
+					};
+					50969514272E5A5C007B05A2 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 509694F3272E5A43007B05A2;
+					};
+				};
+			};
+			buildConfigurationList = 509694EF272E5A43007B05A2 /* Build configuration list for PBXProject "Karzokrom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 509694EB272E5A43007B05A2;
+			productRefGroup = 509694F5272E5A43007B05A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				509694F3272E5A43007B05A2 /* Karzokrom */,
+				50969509272E5A5C007B05A2 /* KarzokromTests */,
+				50969514272E5A5C007B05A2 /* KarzokromUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		509694F2272E5A43007B05A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50969504272E5A5B007B05A2 /* LaunchScreen.storyboard in Resources */,
+				500A97A7272FB280009CCED9 /* GoogleService-Info.plist in Resources */,
+				50969501272E5A5B007B05A2 /* Assets.xcassets in Resources */,
+				50FABD582730ECE00095D381 /* কার্যক্রম.png in Resources */,
+				509694FF272E5A43007B05A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50969508272E5A5C007B05A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50969513272E5A5C007B05A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D6171DDACFA5BD0EA55C6FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Karzokrom-KarzokromUITests/Pods-Karzokrom-KarzokromUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Karzokrom-KarzokromUITests/Pods-Karzokrom-KarzokromUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Karzokrom-KarzokromUITests/Pods-Karzokrom-KarzokromUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76C7FDA23133EE8D46941BA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Karzokrom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A799E8E609208B34C6D7982D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Karzokrom/Pods-Karzokrom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Karzokrom/Pods-Karzokrom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Karzokrom/Pods-Karzokrom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A98E496693035677212FD1FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KarzokromTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4DF97728F91FC6715219DA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Karzokrom-KarzokromUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		509694F0272E5A43007B05A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50291730272FA44700EAF55A /* LoginViewController.swift in Sources */,
+				509694F8272E5A43007B05A2 /* AppDelegate.swift in Sources */,
+				50291734272FAAE100EAF55A /* SignupViewController.swift in Sources */,
+				500A97A9272FC430009CCED9 /* Homepage.swift in Sources */,
+				5048D7DD272FF1FF000CB324 /* developers.swift in Sources */,
+				5048D7DB272FF021000CB324 /* AddKarzokrom.swift in Sources */,
+				5048D7D9272FED0F000CB324 /* MyKarzokrom.swift in Sources */,
+				5056F1262739265A00DF0BDF /* karzoTableViewCell.swift in Sources */,
+				509694FA272E5A43007B05A2 /* SceneDelegate.swift in Sources */,
+				5034B2DC2737DEAD00B91CC4 /* karzosuchi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50969506272E5A5C007B05A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5096950F272E5A5C007B05A2 /* KarzokromTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50969511272E5A5C007B05A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5096951A272E5A5C007B05A2 /* KarzokromUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5096950C272E5A5C007B05A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 509694F3272E5A43007B05A2 /* Karzokrom */;
+			targetProxy = 5096950B272E5A5C007B05A2 /* PBXContainerItemProxy */;
+		};
+		50969517272E5A5C007B05A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 509694F3272E5A43007B05A2 /* Karzokrom */;
+			targetProxy = 50969516272E5A5C007B05A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		509694FD272E5A43007B05A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				509694FE272E5A43007B05A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50969502272E5A5B007B05A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50969503272E5A5B007B05A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5096951C272E5A5C007B05A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5096951D272E5A5C007B05A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5096951F272E5A5C007B05A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B15DFFFE010423DE48AB299 /* Pods-Karzokrom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Karzokrom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abcde.Karzokrom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50969520272E5A5C007B05A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32C68FCCA43DB2A0B9A8AE00 /* Pods-Karzokrom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Karzokrom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abcde.Karzokrom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50969522272E5A5C007B05A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 630EAC87C15B4CBE053CEF00 /* Pods-KarzokromTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KarzokromTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abcde.KarzokromTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karzokrom.app/Karzokrom";
+			};
+			name = Debug;
+		};
+		50969523272E5A5C007B05A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E71742FA0616CA5769578A5F /* Pods-KarzokromTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KarzokromTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abcde.KarzokromTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karzokrom.app/Karzokrom";
+			};
+			name = Release;
+		};
+		50969525272E5A5C007B05A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D0B0470BFFF557709446EC /* Pods-Karzokrom-KarzokromUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KarzokromUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abcde.KarzokromUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Karzokrom;
+			};
+			name = Debug;
+		};
+		50969526272E5A5C007B05A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA8F9ABC60D40B8D46C3DC3 /* Pods-Karzokrom-KarzokromUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KarzokromUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abcde.KarzokromUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Karzokrom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		509694EF272E5A43007B05A2 /* Build configuration list for PBXProject "Karzokrom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5096951C272E5A5C007B05A2 /* Debug */,
+				5096951D272E5A5C007B05A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5096951E272E5A5C007B05A2 /* Build configuration list for PBXNativeTarget "Karzokrom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5096951F272E5A5C007B05A2 /* Debug */,
+				50969520272E5A5C007B05A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50969521272E5A5C007B05A2 /* Build configuration list for PBXNativeTarget "KarzokromTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50969522272E5A5C007B05A2 /* Debug */,
+				50969523272E5A5C007B05A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50969524272E5A5C007B05A2 /* Build configuration list for PBXNativeTarget "KarzokromUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50969525272E5A5C007B05A2 /* Debug */,
+				50969526272E5A5C007B05A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 509694EC272E5A43007B05A2 /* Project object */;
+}

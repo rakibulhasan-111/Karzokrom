@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F49E6994-AE4E-450F-9482-3E6D8CCF4ED9"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04007D2D-7372-498E-B967-ADF529A91A81"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Karzokrom/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "04007D2D-7372-498E-B967-ADF529A91A81 - fc9b3d565e7fa66d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Karzokrom.AppDelegate.__allocating_init() -&gt; Karzokrom.AppDelegate"
+                  moduleName = "Karzokrom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cse/Desktop/Karzokrom/Karzokrom/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "04007D2D-7372-498E-B967-ADF529A91A81 - c2ac28335a302361"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Karzokrom.AppDelegate.init() -&gt; Karzokrom.AppDelegate"
+                  moduleName = "Karzokrom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cse/Desktop/Karzokrom/Karzokrom/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  uuid = "04007D2D-7372-498E-B967-ADF529A91A81 - db144a5bf1dab702"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Karzokrom.AppDelegate.__deallocating_deinit"
+                  moduleName = "Karzokrom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cse/Desktop/Karzokrom/Karzokrom/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "04007D2D-7372-498E-B967-ADF529A91A81 - 5d9e93c57922b3f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Karzokrom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cse/Desktop/Karzokrom/Karzokrom/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
